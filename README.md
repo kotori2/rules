@@ -15,18 +15,18 @@
 
 | 软件 | 链接 |
 | :-----| :---- |
-| Surge | https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.sgmodule |
-| Loon | https://raw.githubusercontent.com/app2smile/rules/master/plugin/adsense.plugin |
-| qx | Rewrite:https://raw.githubusercontent.com/app2smile/rules/master/module/adsense.conf |
+| Surge | https://raw.githubusercontent.com/kotori2/rules/master/module/adsense.sgmodule |
+| Loon | https://raw.githubusercontent.com/kotori2/rules/master/plugin/adsense.plugin |
+| qx | Rewrite:https://raw.githubusercontent.com/kotori2/rules/master/module/adsense.conf |
 
 ## 腾讯新闻
 > 去开屏广告需要全新应用
 
 | 软件 | 链接 |
 | :-----| :---- |
-| Surge | https://raw.githubusercontent.com/app2smile/rules/master/module/qqnews.sgmodule |
-| Loon | https://raw.githubusercontent.com/app2smile/rules/master/plugin/qqnews.plugin |
-| qx | Rewrite:https://raw.githubusercontent.com/app2smile/rules/master/module/qqnews.conf |
+| Surge | https://raw.githubusercontent.com/kotori2/rules/master/module/qqnews.sgmodule |
+| Loon | https://raw.githubusercontent.com/kotori2/rules/master/plugin/qqnews.plugin |
+| qx | Rewrite:https://raw.githubusercontent.com/kotori2/rules/master/module/qqnews.conf |
 
 
 ## 起点
@@ -39,9 +39,9 @@ qx去广告无效的解决办法:
 
 | 软件 | 链接 |
 | :-----| :---- |
-| Surge | https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.sgmodule |
-| Loon | https://raw.githubusercontent.com/app2smile/rules/master/plugin/qidian.plugin |
-| qx | Rewrite:https://raw.githubusercontent.com/app2smile/rules/master/module/qidian.conf |
+| Surge | https://raw.githubusercontent.com/kotori2/rules/master/module/qidian.sgmodule |
+| Loon | https://raw.githubusercontent.com/kotori2/rules/master/plugin/qidian.plugin |
+| qx | Rewrite:https://raw.githubusercontent.com/kotori2/rules/master/module/qidian.conf |
 
 
 ## Spotify
@@ -50,13 +50,13 @@ qx去广告无效的解决办法:
 
 | 软件 | 链接 |
 | :-----| :---- |
-| Surge | https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.module |
-| Loon | https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin |
-| qx | Rewrite:https://raw.githubusercontent.com/app2smile/rules/master/module/spotify.conf |
+| Surge | https://raw.githubusercontent.com/kotori2/rules/master/module/spotify.module |
+| Loon | https://raw.githubusercontent.com/kotori2/rules/master/plugin/spotify.plugin |
+| qx | Rewrite:https://raw.githubusercontent.com/kotori2/rules/master/module/spotify.conf |
 
 
 ## Spotify歌词翻译
-> https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js
+> https://raw.githubusercontent.com/kotori2/rules/master/js/spotify-lyric.js
 
 
 ## 哔哩哔哩
@@ -64,9 +64,9 @@ qx去广告无效的解决办法:
 
 | 软件 | 链接 |
 | :-----| :---- |
-| Surge | https://raw.githubusercontent.com/app2smile/rules/master/module/bilibili.sgmodule |
-| Loon | https://raw.githubusercontent.com/app2smile/rules/master/plugin/bilibili.plugin |
-| qx | Filter:https://raw.githubusercontent.com/app2smile/rules/master/rule/bilibili-ad-qx.list  <br> Rewrite:https://raw.githubusercontent.com/app2smile/rules/master/module/bilibili-qx.conf |
+| Surge | https://raw.githubusercontent.com/kotori2/rules/master/module/bilibili.sgmodule |
+| Loon | https://raw.githubusercontent.com/kotori2/rules/master/plugin/bilibili.plugin |
+| qx | Filter:https://raw.githubusercontent.com/kotori2/rules/master/rule/bilibili-ad-qx.list  <br> Rewrite:https://raw.githubusercontent.com/kotori2/rules/master/module/bilibili-qx.conf |
 
 
 ## 贴吧
@@ -74,9 +74,9 @@ qx去广告无效的解决办法:
 
 | 软件 | 链接 |
 | :-----| :---- |
-| Surge | https://raw.githubusercontent.com/app2smile/rules/master/module/tieba.sgmodule |
-| Loon | https://raw.githubusercontent.com/app2smile/rules/master/plugin/tieba.plugin |
-| qx | Filter:https://raw.githubusercontent.com/app2smile/rules/master/rule/tieba-ad-qx.list  <br> Rewrite:https://raw.githubusercontent.com/app2smile/rules/master/module/tieba-qx.conf |
+| Surge | https://raw.githubusercontent.com/kotori2/rules/master/module/tieba.sgmodule |
+| Loon | https://raw.githubusercontent.com/kotori2/rules/master/plugin/tieba.plugin |
+| qx | Filter:https://raw.githubusercontent.com/kotori2/rules/master/rule/tieba-ad-qx.list  <br> Rewrite:https://raw.githubusercontent.com/kotori2/rules/master/module/tieba-qx.conf |
 
 
 ## YouTube
@@ -84,7 +84,7 @@ qx去广告无效的解决办法:
 
 | 软件 | 链接                                                                                                                                                                                  |
 | :-----|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Surge | https://raw.githubusercontent.com/app2smile/rules/master/module/youtube.sgmodule                                                                                                    |
-| Loon | https://raw.githubusercontent.com/app2smile/rules/master/plugin/youtube.plugin                                                                                                      |
-| qx | Rewrite:https://raw.githubusercontent.com/app2smile/rules/master/module/youtube-qx.conf   |
+| Surge | https://raw.githubusercontent.com/kotori2/rules/master/module/youtube.sgmodule                                                                                                    |
+| Loon | https://raw.githubusercontent.com/kotori2/rules/master/plugin/youtube.plugin                                                                                                      |
+| qx | Rewrite:https://raw.githubusercontent.com/kotori2/rules/master/module/youtube-qx.conf   |
 

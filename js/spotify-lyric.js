@@ -1,5 +1,5 @@
 /*
-Spotify非中文歌词翻译 Surge和Loon需要>=iOS15 (仓库地址: https://github.com/app2smile/rules)
+Spotify非中文歌词翻译 Surge和Loon需要>=iOS15 (仓库地址: https://github.com/kotori2/rules)
 采用百度翻译接口进行翻译,需要先免费申请百度翻译api的id和密钥,然后根据不同软件进行不同配置
 
 -----------申请百度翻译(有标准版和高级版 建议申请高级版)api--------------
@@ -12,20 +12,20 @@ Spotify非中文歌词翻译 Surge和Loon需要>=iOS15 (仓库地址: https://gi
     成功后即可看到自己的appid和密钥(不要泄露给任何人): http://api.fanyi.baidu.com/manage/developer
 
 ------------软件配置(在文本模式下,填入下方内容)--------------
-如果软件已经加载过Spotify解锁脚本(https://github.com/app2smile/rules#spotify),可不配置MITM域名
+如果软件已经加载过Spotify解锁脚本(https://github.com/kotori2/rules#spotify),可不配置MITM域名
 1.Surge:
 [MITM]
 hostname = %APPEND% spclient.wg.spotify.com
 [Script]
 # 修改下方argument中的appid和securityKey,填入自己的appid和密钥
-spotify歌词翻译 = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js,argument=appid=111&securityKey=xxx
+spotify歌词翻译 = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/kotori2/rules/master/js/spotify-lyric.js,argument=appid=111&securityKey=xxx
 
 2.Loon:
 [Mitm]
 hostname =spclient.wg.spotify.com
 [Script]
 # 修改下方argument中的appid和securityKey,填入自己的appid和密钥
-http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js, requires-body=true, binary-body-mode=true, timeout=10, tag=Spotify歌词翻译, argument=appid=111&securityKey=xxx
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path=https://raw.githubusercontent.com/kotori2/rules/master/js/spotify-lyric.js, requires-body=true, binary-body-mode=true, timeout=10, tag=Spotify歌词翻译, argument=appid=111&securityKey=xxx
 
 3.qx:
     - 自行配置MITM域名: spclient.wg.spotify.com
